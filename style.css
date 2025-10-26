@@ -1,0 +1,146 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Warna dasar */
+body {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+/* Header */
+.header {
+  background-color: #1a1a1a;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5ab2ff;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+/* Bagian Home */
+section {
+  min-height: 100vh;
+  padding: 80px 10%;
+}
+
+.home {
+  margin-top: 100px;
+}
+
+.home h1 {
+  font-size: 40px;
+}
+
+.home h3 {
+  color: #5ab2ff;
+  margin-bottom: 15px;
+}
+
+.home p {
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.home img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Tombol */
+.btn {
+  display: inline-block;
+  background-color: #5ab2ff;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #5ab2ff;
+}
+
+/* Bagian About */
+.about {
+  background-color: #111;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.about h2 {
+  color: #5ab2ff;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Bagian Galery */
+.galery {
+  background-color: #111;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.galery h2 {
+  color: #5ab2ff;
+  margin-bottom: 20px;
+}
+
+.galery img {
+  border-radius: 40px;
+  max-height: 500px;
+  object-fit: cover;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+
+.social-icon a i {
+    font-size: 40px; /* ubah sesuai keinginan */
+    margin: 10px; /* beri jarak antar ikon */
+    transition: 0.3s; /* efek halus kalau dihover */
+}
+

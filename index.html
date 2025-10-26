@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-Agusssalim</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#home" class="navbar-brand logo">
+                AGUSSALIM <br>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About me </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#galery" class="nav-link">Galery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Halamanutama.html" class="nav-link">E-learning</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="home d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <div class="home-content">
+                            <span>AGUSSALIM</span>
+                        <h3 class="text-animation">Saya adalah seorang mahasiswa Pendidikan teknologi informasi</h3>
+                    </div>
+
+                    <!-- icon awal -->
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/its.limxl?igsh=N2Vpa3I3MmpmZHd0" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/6282192434604" target="_blank">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                    <!-- icol akhir -->
+
+                    <div class="btn-group">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="home-img">
+                        <img src="image/Gambar WhatsApp 2025-04-06 pukul 18.22.04_1c6093be.jpg" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="content-about">
+            <h2>About Me</h2>
+            <p style="text-align: justify;">
+                Halo! Aku Agus Salim, mahasiswa Pendidikan Teknologi Informasi semester 3 di FKIP Unsulbar. 
+                Saya alumni dari SMKN CAMPALAGIAN.Sayasuka
+                banget dengan hal-hal yang berhubungan sama teknologi, desain, dan cara menggabungkan keduanya buat
+                hasil yang kreatif dan bermanfaat.
+                Selain belajar di kampus, aku juga senang eksplor berbagai proyek digital untuk ngembangin skill dan
+                pengalaman. Buatku, dunia teknologi itu nggak pernah berhenti berkembang — dan itu yang bikin aku
+                semangat buat terus belajar dan berkreasi.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <section class="galery" id="galery">
+        <div class="container text-center">
+            <h2>Galery</h2><br>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/download (1).jpeg" class="d-block w-100" alt="Gambar 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/download (2).jpeg" class="d-block w-100" alt="Gambar 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/images (2).jpeg" class="d-block w-100" alt="Gambar 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm" method="POST" class="contact-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message"
+                        required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 footer-contact">
+                    <div class="social-links text-center">
+                        <a href="https://wa.me/message/FKP5UR637HDUC1"><i class="bi bi-Whastapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Agussalim .Semua hak cipta di lindungi </p>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
